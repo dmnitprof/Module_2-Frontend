@@ -1,10 +1,10 @@
 import React from 'react'
 
-const BookMark = () => {
+const BookMark = ({status, ...rest}) => {
     return (
-        <div>
-            BookMark
-        </div>
+      <button {...rest}>
+          <i className={"bi bi-star" + (status ? "-fill" : "")}></i>
+      </button>
     )
 }
 
