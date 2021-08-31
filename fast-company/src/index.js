@@ -4,11 +4,11 @@ import './index.css'
 import reportWebVitals from './reportWebVitals'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import App from "./app/App"
+import App from './app/App'
 
 ReactDOM.render(
     <React.StrictMode>
-        <App/>
+        <App />
     </React.StrictMode>,
     document.getElementById('root')
 )
