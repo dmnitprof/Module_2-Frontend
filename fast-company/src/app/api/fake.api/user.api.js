@@ -154,10 +154,9 @@ const getById = (id) =>
     new Promise((resolve) => {
         window.setTimeout(function () {
             resolve(users.find((user) => user._id === id))
-        }, 2000)
+        }, 1000)
     })
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     fetchAll,
     getById

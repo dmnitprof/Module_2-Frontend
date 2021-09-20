@@ -7,7 +7,7 @@ import Main from './layouts/main'
 import Navbar from './components/navBar'
 
 function App() {
-    return <div>
+    return <div className='container'>
         <Navbar/>
         <Switch>
             <Route path='/users/:userId?' component={Users} />
