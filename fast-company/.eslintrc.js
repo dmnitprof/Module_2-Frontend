@@ -20,6 +20,7 @@ module.exports = {
             { anonymous: 'always', named: 'never' }
         ],
         quotes: [2, 'single', { allowTemplateLiterals: true }],
-        'object-curly-spacing': 'off'
+        'object-curly-spacing': 'off',
+        'no-case-declarations': "off"
     }
 }
