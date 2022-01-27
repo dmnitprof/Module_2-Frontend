@@ -4,7 +4,7 @@ import {Redirect, Route, Switch} from 'react-router-dom'
 import Users from './layouts/users'
 import Login from './layouts/login'
 import Main from './layouts/main'
-import Navbar from './components/navBar'
+import Navbar from './components/ui/navBar'
 
 function App() {
     return <div className='container'>
